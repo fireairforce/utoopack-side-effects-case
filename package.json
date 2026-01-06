@@ -3,13 +3,14 @@
   "author": "",
   "scripts": {
     "dev": "umi dev",
-    "build": "umi build",
+    "build": "COMPRESS=none umi build",
     "postinstall": "umi setup",
     "setup": "umi setup",
     "start": "npm run dev"
   },
   "dependencies": {
-    "umi": "^4.6.19"
+    "umi": "^4.6.19",
+    "pkg-a": "1.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.33",
