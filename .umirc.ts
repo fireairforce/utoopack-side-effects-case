@@ -5,5 +5,9 @@ export default defineConfig({
     { path: "/", component: "index" },
   ],
   npmClient: 'pnpm',
-  utoopack: {},
+  utoopack: {
+    optimization: {
+      moduleIds: "named",
+    }
+  },
 });
