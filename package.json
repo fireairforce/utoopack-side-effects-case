@@ -5,6 +5,7 @@
     "dev": "umi dev",
     "build": "COMPRESS=none umi build",
     "postinstall": "umi setup",
+    "preview": "umi preview",
     "setup": "umi setup",
     "start": "npm run dev"
   },
